@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">FinBase</string>
+    <string name="title_activity_authorization">Authorization</string>
+    <string name="title_activity_basic">Basic</string>
+    <string name="title_teory">Теория</string>
+    <string name="title_practic">Практика</string>
+    <string name="title_calculator">Калькулятор</string>
+    <string name="title_profile">Профиль</string>
+    <string-array name="CalcView_taxes">
+        <item>НДС</item>
+        <item>НДФЛ</item>
+        <item>ПФР</item>
+        <item>ФСС</item>
+        <item>ФФОМС</item>
+    </string-array>
+    <string-array name="CalcView_NDS">
+        <item>10%</item>
+        <item>20%</item>
+    </string-array>
+    <string-array name="CalcView_NDFL">
+        <item>9%</item>
+        <item>13%</item>
+        <item>15%</item>
+        <item>30%</item>
+        <item>35%</item>
+    </string-array>
+</resources>

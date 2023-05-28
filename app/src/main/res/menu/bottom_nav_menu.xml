@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_teory"
+        android:icon="@drawable/teory_icon"
+        android:title="@string/title_teory" />
+
+    <item
+        android:id="@+id/navigation_practic"
+        android:icon="@drawable/practic_icon"
+        android:title="@string/title_practic" />
+
+    <item
+        android:id="@+id/navigation_calculator"
+        android:icon="@drawable/calculator_icon"
+        android:title="@string/title_calculator" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/profile_icon"
+        android:title="@string/title_profile" />
+
+</menu>

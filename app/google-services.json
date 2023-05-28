@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "176763586383",
+    "firebase_url": "https://finbase20111-default-rtdb.firebaseio.com",
+    "project_id": "finbase20111",
+    "storage_bucket": "finbase20111.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:176763586383:android:2802d8094ac3e9fb2d673a",
+        "android_client_info": {
+          "package_name": "com.example.finbase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "176763586383-ros1bfd2bi2u7d4djpp007h4e252d7ch.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7Mjbe_SnBEKOE_u5vmrZnwGf1DMKDMWM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "176763586383-ros1bfd2bi2u7d4djpp007h4e252d7ch.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

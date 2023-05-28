@@ -1,0 +1,71 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="DayTheme" parent="Theme.AppCompat.DayNight">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#2c98f0</item>
+        <item name="colorPrimaryVariant">#3071E7</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#3071E7</item>
+        <item name="colorSecondaryVariant">#3071E7</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">#0c60a6</item>
+        <item name="android:navigationBarColor">@color/black</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="MainDayTheme" parent="Theme.AppCompat.DayNight">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#2c98f0</item>
+        <item name="colorPrimaryVariant">#3071E7</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#3071E7</item>
+        <item name="colorSecondaryVariant">#3071E7</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:windowBackground">@drawable/background_light</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">#0c60a6</item>
+        <item name="android:navigationBarColor">@color/black</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="DarkTheme" parent="ThemeOverlay.MaterialComponents.Dark">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#2c98f0</item>
+        <item name="colorPrimaryVariant">#3071E7</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#3071E7</item>
+        <item name="colorSecondaryVariant">#3071E7</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorBackgroundFloating">#171717</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">#3071E7</item>
+        <item name="android:navigationBarColor">@color/black</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="MainDarkTheme" parent="ThemeOverlay.MaterialComponents.Dark">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#2c98f0</item>
+        <item name="colorPrimaryVariant">#3071E7</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#3071E7</item>
+        <item name="colorSecondaryVariant">#3071E7</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorBackgroundFloating">#171717</item>
+        <item name="android:windowBackground">@drawable/background_night</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">#3071E7</item>
+        <item name="android:navigationBarColor">@color/black</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+</resources>

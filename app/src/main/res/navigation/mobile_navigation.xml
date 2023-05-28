@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_teory">
+
+    <fragment
+        android:id="@+id/navigation_teory"
+        android:name="com.example.finbase.TeoryFragment"
+        android:label="@string/title_teory"
+        app:destination="@id/navigation_practic"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_in_left"
+        app:popEnterAnim="@anim/slide_out_left"
+        app:popExitAnim="@anim/slide_out_right"
+        tools:layout="@layout/fragment_teory" />
+    <fragment
+        android:id="@+id/navigation_practic"
+        android:name="com.example.finbase.PracticFragment"
+        android:label="@string/title_practic"
+        app:destination="@id/navigation_practic"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_in_left"
+        app:popEnterAnim="@anim/slide_out_left"
+        app:popExitAnim="@anim/slide_out_right"
+        tools:layout="@layout/fragment_practic" />
+
+    <fragment
+        android:id="@+id/navigation_calculator"
+        android:name="com.example.finbase.CalculatorFragment"
+        android:label="@string/title_calculator"
+        app:destination="@id/navigation_practic"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_in_left"
+        app:popEnterAnim="@anim/slide_out_left"
+        app:popExitAnim="@anim/slide_out_right"
+        tools:layout="@layout/fragment_calculator" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.finbase.ProfileFragment"
+        android:label="@string/title_profile"
+        app:destination="@id/navigation_practic"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_in_left"
+        app:popEnterAnim="@anim/slide_out_left"
+        app:popExitAnim="@anim/slide_out_right"
+        tools:layout="@layout/fragment_profile" />
+</navigation>
