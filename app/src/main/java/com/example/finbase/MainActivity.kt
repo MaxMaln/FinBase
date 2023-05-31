@@ -56,4 +56,7 @@ class MainActivity : AppCompatActivity() {
             overridePendingTransition(0, 0)
         }
     }
+    @Deprecated("Deprecated in Java")
+    override fun onBackPressed() {
+    }
 }
